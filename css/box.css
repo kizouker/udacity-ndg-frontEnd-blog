@@ -1,11 +1,11 @@
-.box3 {
+/* .box3 {
     background: grey;
     width: 200px;
     height: 100px;
     display: flex;
     flex-direction: row;
     border: solid 1px black;
-    grid-row: 3;
+
 }
 
 .box4 {
@@ -15,8 +15,8 @@
     display: flex;
     flex-direction: row;
     border: solid 1px black;
-    grid-row: 4;
-}
+ 
+} */
 
 
 .box2 {
@@ -26,7 +26,7 @@
     display: block;
     flex-direction: row;
     border: solid 1px black;
-    grid-row: 2;
+    /* grid-row: 2; */
 }
 
 .box1 {
@@ -35,6 +35,6 @@
     height: 300px;
     display: block;
     border: solid 1px black;
-    grid-row: 1;
+    /* grid-row: 1; */
 }
 

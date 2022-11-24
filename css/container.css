@@ -1,7 +1,82 @@
 .container {
     display: grid;
     gap: 10px;
-    grid-template-rows: 300px 300px 25px;
-    grid-template-columns: 400px 400px;
+    /* grid-template-rows: 300px 300px 25px; */
+    grid-template-columns: 200px 200px; 
 }  /** 1150 px**/
 
+/** vh = percentage of viewports height **/
+/** vw = percentage of viewports width **/
+
+/** grid-template-areas :
+    "top top"
+    "bottomLeft bottomRight";
+
+
+    #one{
+
+    }
+    
+    #two {
+
+    }
+**/
+
+/**
+- Så nu har jag gjort två kolumner, två rader med boxes
+- jag gjorde det med grid-row och satte in en siffra typ 
+grid-row 1
+grid-row 2
+
+Om jag börjar med att ta bort dem...
+Och sen tänker...hur jag vill ha det och hur jag ska göra...
+
+xx
+---
+X X
+X X
+---
+xxx
+
+html är fan inte lätt längre
+jag menar css
+
+Det gjorde ingen skillnad när jag tog bort
+grid-row
+
+ok...
+
+utan dessa:
+
+ grid-template-rows: 300px 300px 25px;
+    grid-template-columns: 400px 400px; 
+
+så hamnar alla divar i en egen kolumn
+X
+X
+X
+X
+
+---
+
+ska ändra på display=block till display=flex
+på boxarna och se vad som händer
+
+
+navbar
+- den är kortare än 400+400 boxes
+- satte samma width på dem
+
+boix
+-widrth 100% vad händer?
+
+
+varför är resize av window satt till en viss treshold
+
+viewport
+400 px + 400 px från boxes
+width 100% 
+först 200px från gridtemplate-columns
+sen 200px till max, dvs 600
+
+**/
