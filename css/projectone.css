@@ -1,0 +1,25 @@
+@import "./navbar.css";
+@import "./container.css";
+@import "./box.css";
+@import "./list.css";
+
+
+
+@media(min-width: 0px) and (max-width: 400px){
+    body{
+        background: red;
+    } 
+}
+
+@media (min-width: 400px) and (max-width: 900px){
+    body{
+        background: yellow;
+    } 
+}
+
+
+@media (min-width: 900px) and (max-width: 1100px){
+    body{
+        background: white;
+    } 
+}

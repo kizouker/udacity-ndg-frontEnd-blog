@@ -1,0 +1,40 @@
+.box3 {
+    background: grey;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    grid-row: 3;
+}
+
+.box4 {
+    background: grey;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    grid-row: 4;
+}
+
+
+.box2 {
+    background: grey;
+    width: 400px;
+    height: 300px;
+    display: block;
+    flex-direction: row;
+    border: solid 1px black;
+    grid-row: 2;
+}
+
+.box1 {
+    background: grey;
+    width: 400px;
+    height: 300px;
+    display: block;
+    border: solid 1px black;
+    grid-row: 1;
+}
+
