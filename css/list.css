@@ -6,7 +6,6 @@ ul {
     float: right;
 }
 
-
 li a {
     float: left;
     color: white;
@@ -14,7 +13,6 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 
 li a:hover:not(.home){
     background-color: #000

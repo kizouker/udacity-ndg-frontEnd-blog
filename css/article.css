@@ -1,0 +1,11 @@
+article {
+    background: grey;
+    width: 100%;
+    height: 300px;
+    margin-left: 7px;
+    padding-left: 7px;
+    display: block;
+    border: solid 1px black;
+    /* grid-row: 1; */
+}
+

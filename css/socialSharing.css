@@ -1,0 +1,45 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+footer{
+    text-align: center;
+
+}
+
+.buttonContainer footer
+{
+  text-align:center;
+  font-family: 'Poiret One', cursive;
+}
+
+.fa footer{
+  background-color: ;
+  margin-left: -4px;  
+}
+
+.fa.fa-twitter footer{ 
+  color:#00aced;
+}
+.fa.fa-dribbble footer{ 
+  color: #ea4c89;
+}
+.fa.fa-dropbox footer{
+  color:#007ee5;
+}
+.fa.fa-code footer{ color: #db4437;}
+.fa.fa-slack footer{ color:#3eb991;}
+.fa.fa-stack-overflow footer{color:#fe7a15;}
+.fa.fa-github-alt footer{ color:#999999;}
+.fa.fa-jsfiddle footer{ color:#5ba4e5;margin-left:-3.5px;
+}
+.btn footer:hover{
+   border: none;
+  background-color: #FFFFFF;
+}
+
+.author footer{
+    text-align: center;
+    text-underline-offset: auto;
+}

@@ -1,8 +1,8 @@
-.container {
+section {
     display: grid;
-    gap: 10px;
-    /* grid-template-rows: 300px 300px 25px; */
-    grid-template-columns: 200px 200px; 
+    gap: 20px;
+    grid-template-rows: 290px 290px 1px;
+    grid-template-columns: 340px 340px; 
 }  /** 1150 px**/
 
 /** vh = percentage of viewports height **/
@@ -79,4 +79,26 @@ width 100%
 först 200px från gridtemplate-columns
 sen 200px till max, dvs 600
 
+**/
+
+/** 
+Blog Homepage
+Navbar
+Blog Post Card
+Card
+Image
+Buttons
+Footer
+Blog Post
+Header
+Author Info
+Name
+Title
+Current Company/School
+Short Bio
+Avatar
+Social Sharing
+Twitter
+Facebook
+LinkedIn
 **/
