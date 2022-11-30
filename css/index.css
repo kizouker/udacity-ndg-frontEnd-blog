@@ -4,26 +4,53 @@
 @import "./section.css";
 @import "./article.css";
 @import "./list.css";
-
+@import "./blogpost.css";
+/* 
 @media(min-width: 0px) and (max-width: 400px){
     body{
-        /** background: red; **/
     } 
 }
 
 @media (min-width: 400px) and (max-width: 900px){
     body{
-        /** background: yellow; **/
     } 
 }
 
 @media (min-width: 900px) and (max-width: 1100px){
     body{
-        /** background: white; **/
     } 
 }
-
+ */
 .blogTitle{
     text-underline-offset: -0.5;
-    font-size: xxx-large
+    font-size: xxx-large;
+    font-weight: 550;
+    background-color: white;
+    height: 100%;
 }
+/** Do with help of viewport vw - width; now vh - height;
+what is most likely tpo shrink or widen, height or width?
+what other possibilities are there?
+**/
+/* h1  {
+    font-size: 7vh;
+}
+
+h2  {
+    font-size: 4.3vh;
+}
+
+h3 {
+    font-size: 3.4vh;
+}
+
+h4 {
+    font-size: 2.4vh;
+}
+
+h7 {
+    font-size: 1.80vh;
+}
+
+
+ */
