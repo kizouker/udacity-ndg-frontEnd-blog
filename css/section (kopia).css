@@ -1,231 +1,54 @@
-
-/** X X  
-    X X 
-**/
-
-section {
-    display: grid;
-    gap: 10px;
-    grid-template-rows: 290px 290px 1px;
-    grid-template-columns: 290px ; 
-    background-color: white;
-}
- 
-
-@media((max-width: 1000px) and (min-width:900px) and (max-height: 599px)){
-section {
-    display: grid;
-    gap: 10px;
-    grid-template-rows: 290px 1px;
-    grid-template-columns:290px 290px 290px; 
-    background-color: pink;
-}
+@media(min-width:0) and (max-width: 600px){
+    section {
+        display: grid;
+        gap: 10px;
+        grid-template-columns:290px; 
+        background-color: aqua;
+    }
 }  
 
-
-/** X  
-    X 
-**/
-
-@media((min-width: 0px) and (max-width: 290px) and (max-height: 290px))
-{
+@media((max-width: 900px) and (min-width: 600px)){
     section {
         display: grid;
         gap: 10px;
-        grid-template-rows: 290px 2px;
-        grid-template-columns: 290px;
-        background-color: yellow;
+        grid-template-columns: 290px 290px ; 
+        background-color:blue;
     }
-}
+} 
 
-
-/** X X  
-    X X 
-    X X 
-**/
-
-/** X X  
-    X X 
-**/
-
-@media ((min-width: 400px) and (max-width: 900px) and 
-        (min-height: 600px)){
+@media((max-width: 1200px) and (min-width: 900px)){
     section {
         display: grid;
         gap: 10px;
-        grid-template-rows: 290px 290px 2px;
-        grid-template-columns: 290px 290px; 
-        background-color: yellowgreen;
-    }
-}
- 
-
-
-/** X X X  **/
-@media (min-width: 900px) and (max-width: 1200px) and
-(max-height: 380px){
-    section {
-        display: grid;
-        gap: 10px;
-        grid-template-rows: 290px 2px;
         grid-template-columns: 290px 290px 290px; 
-        background-color: green;
-    }
+        background-color:blueviolet;
+    } 
 }
 
-/** X X X  **/
-/** X X X  **/
-@media  (min-height: 590px){
+@media((max-width: 1500px) and (min-width: 1200px)){
     section {
         display: grid;
         gap: 10px;
-        grid-template-rows: 290px 290px;
+        grid-template-columns: 290px 290px 290px 290px ; 
+        background-color:brown;
+    } 
+}
+
+@media((max-width: 1800px) and (min-width: 1500px)){
+    section {
+        display: grid;
+        gap: 10px;
         grid-template-columns: 290px 290px 290px 290px 290px; 
-        background-color: orange;
-    }
+        background-color:burlywood;
+    } 
 }
 
-
-/** X X X 
-    X X X
-**/
-@media (min-width: 1500px) and (max-width: 1900px) and
-(min-height: 600px){
+@media((max-width: 2100px) and (min-width: 1800px)){
     section {
         display: grid;
         gap: 10px;
-        grid-template-rows: 290px 290px 2px;
-        grid-template-columns: 290px 290px 290px 290px 290px; 
-        background-color: purple;
-    }}
-/** X X X X **/
-@media (min-width: 1200px) and (max-height: 590px) {
-    section {
-        display: grid;
-        gap: 10px;
-        grid-template-rows: 290px 2px;
-        grid-template-columns: 290px 290px 290px 290px; 
-        background-color: red;
-    }
-}
-/** X X X X X **/
-
-@media (min-width: 1500px) and (max-height: 599px) {
-    section {
-        display: grid;
-        gap: 10px;
-        grid-template-rows: 290px 2px;
-        grid-template-columns: 290px 290px 290px 290px 290px; 
-        background-color: brown;
-    }
-}
-
-/** X X X X X **/
-
-@media (min-width: 1700px) and (max-height: 599px) {
-    section {
-        display: grid;
-        gap: 10px;
-        grid-template-rows: 290px 2px;
         grid-template-columns: 290px 290px 290px 290px 290px 290px; 
-    background-color: black;
-    }
+        background-color:crimson;
+    } 
 }
 
-
-/** vw = percentage of viewports width **/
-
-/** grid-template-areas :
-    "top top"
-    "bottomLeft bottomRight";
-
-
-    #one{
-
-    }
-    
-    #two {
-
-    }
-**/
-
-/**
-- Så nu har jag gjort två kolumner, två rader med boxes
-- jag gjorde det med grid-row och satte in en siffra typ 
-grid-row 1
-grid-row 2
-
-Om jag börjar med att ta bort dem...
-Och sen tänker...hur jag vill ha det och hur jag ska göra...
-
-xx
----
-X X
-X X
----
-xxx
-
-html är fan inte lätt längre
-jag menar css
-
-Det gjorde ingen skillnad när jag tog bort
-grid-row
-
-ok...
-
-utan dessa:
-
- grid-template-rows: 290px 290px 25px;
-    grid-template-columns: 400px 400px; 
-
-så hamnar alla divar i en egen kolumn
-X
-X
-X
-X
-
----
-
-ska ändra på display=block till display=flex
-på boxarna och se vad som händer
-
-
-navbar
-- den är kortare än 400+400 boxes
-- satte samma width på dem
-
-boix
--widrth 100% vad händer?
-
-
-varför är resize av window satt till en viss treshold
-
-viewport
-400 px + 400 px från boxes
-width 100% 
-först 200px från gridtemplate-columns
-sen 200px till max, dvs 600
-
-**/
-
-/** 
-Blog Homepage
-Navbar
-Blog Post Card
-Card
-Image
-Buttons
-Footer
-Blog Post
-Header
-Author Info
-Name
-Title
-Current Company/School
-Short Bio
-Avatar
-Social Sharing
-Twitter
-Facebook
-LinkedIn
-**/

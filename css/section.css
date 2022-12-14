@@ -1,8 +1,8 @@
-@media(min-width:0) and (max-width: 600px){
+ @media(min-width:0) and (max-width: 600px){
     section {
         display: grid;
-        gap: 10px;
-        grid-template-columns:290px; 
+        gap: 1vw;
+        grid-template-columns:85vw; 
         background-color: aqua;
     }
 }  
@@ -10,8 +10,8 @@
 @media((max-width: 900px) and (min-width: 600px)){
     section {
         display: grid;
-        gap: 10px;
-        grid-template-columns: 290px 290px ; 
+        gap: 1vw;
+        grid-template-columns: 45vw 45vw ; 
         background-color:blue;
     }
 } 
@@ -19,8 +19,8 @@
 @media((max-width: 1200px) and (min-width: 900px)){
     section {
         display: grid;
-        gap: 10px;
-        grid-template-columns: 290px 290px 290px; 
+        gap: 1vw;
+        grid-template-columns: 33vw 33vw 33vw; 
         background-color:blueviolet;
     } 
 }
@@ -28,8 +28,8 @@
 @media((max-width: 1500px) and (min-width: 1200px)){
     section {
         display: grid;
-        gap: 10px;
-        grid-template-columns: 290px 290px 290px 290px ; 
+        gap: 1vw;
+        grid-template-columns: 25vw 25vw 25vw 25vw ; 
         background-color:brown;
     } 
 }
@@ -37,8 +37,8 @@
 @media((max-width: 1800px) and (min-width: 1500px)){
     section {
         display: grid;
-        gap: 10px;
-        grid-template-columns: 290px 290px 290px 290px 290px; 
+        gap: 1vw;
+        grid-template-columns: 20vw 20vw 20vw 20vw 20vw; 
         background-color:burlywood;
     } 
 }
@@ -46,8 +46,8 @@
 @media((max-width: 2100px) and (min-width: 1800px)){
     section {
         display: grid;
-        gap: 10px;
-        grid-template-columns: 290px 290px 290px 290px 290px 290px; 
+        gap: 1vw;
+        grid-template-columns: 16vw 16vw 16vw 16vw 16vw 16vw; 
         background-color:crimson;
     } 
 }
